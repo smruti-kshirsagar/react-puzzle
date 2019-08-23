@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.grid-container {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-cell {
+  height: 50px;
+  width: 50px;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  position: absolute;
+}
+
+.game-controls {
+  position: relative;
+  margin-top: 50px;
+}
+.start-game {
+  padding: 5px;
+  margin-bottom: 20px;
+}
